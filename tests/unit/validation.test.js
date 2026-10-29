@@ -33,7 +33,7 @@ test('Retorna uma string vazia se o título for uma entrada indefinido', () =>{
 
   // Verifica se a função retorna uma string vazia quando a descrição não é uma string.
   test('Retorna uma string vazia se a descrição receber um valor que não seja uma string', () => {
-    expect(normalizeDescription(12345)).toBe('');
+    expect(normalizeTitle(12345)).toBe('');
   });
 
   // Verifica se um título com 125 caracteres, e é rejeitado por ultrapassar o limite de 120.
